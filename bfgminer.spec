@@ -11,6 +11,11 @@ License: 	GPL
 Group:		Networking/Other 
 Source0: 	http://luke.dashjr.org/programs/bitcoin/files/bfgminer/%{version}/bfgminer-%{version}.tbz2
 Url: 		https://bitcointalk.org/?topic=78192
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(jansson)
 BuildRequires:	pkgconfig(libcurl)
 BuildRequires:	pkgconfig(udev)
